@@ -1,0 +1,18 @@
+{
+    "name": "infinite",
+    "title": "infinite",
+    "description": "A minimalist dark theme with a perfect balance of a few contrasting colors",
+    "homepage": "https://github.com/MatthewTRader/infinite",
+    "version": "2.0.0",
+	"author": "Matthew T Rader <matthew@matthetrader.com>",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.4.0"
+    },
+    "theme": {
+        "file": "infinite.css",
+        "dark": true,
+		"addModeClass": true
+    },
+    "keywords": ["theme, dark, infinite, colorful, brackets, simple"]
+}
