@@ -1,4 +1,6 @@
-.CodeMirror, .CodeMirror, .CodeMirror-scroll  {
+.CodeMirror,
+.CodeMirror,
+.CodeMirror-scroll {
     background-color: #293134;
     color: #E0E2E4;
 }
@@ -130,30 +132,39 @@
 #status-overwrite {
     color: #4BD278;
 }
+
+.CodeMirror-cursor,
+.CodeMirror-secondarycursor {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #000;
+}
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none;
+    border-bottom: 2px solid #ede0ce;
+}
+
 .cm-matchhighlight,
 .CodeMirror-matchingtag,
-.CodeMirror-searching,
 .CodeMirror-matchingbracket,
-.CodeMirror-searching,
 .CodeMirror .CodeMirror-activeline,
 .CodeMirror-matchingbracket,
 .CodeMirror-matchingtag,
-.CodeMirror-searching,
 .CodeMirror .CodeMirror-linebackground,
-.cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext,
-.CodeMirror .cm-matchhighlight:not(.CodeMirror-selectedtext)
-{
-    background: #fff !important;
-    color: #FF4500  !important;
+.CodeMirror .cm-matchhighlight:not(.CodeMirror-selectedtext) {
+    background: rgba(255, 255, 255, 0.15) !important;
 }
-
- .CodeMirror-searching.searching-current-match {
+.CodeMirror-searching {
     background: #FF4500 !important;
-     color: #FFF !important;
+    color: #FFF !important;
 }
-
+.cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext,
+.CodeMirror-searching.searching-current-match {
+    background: #FFF !important;
+    color: #FF4500 !important;
+}
 .CodeMirror-focused .CodeMirror-selected,
 .CodeMirror .CodeMirror-selected,
 .CodeMirror .CodeMirror-selectedtext {
-    background: #545A5D;
+    background: #22292B;
 }
